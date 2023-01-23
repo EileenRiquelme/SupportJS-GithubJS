@@ -1,0 +1,69 @@
+img.logo{
+
+    margin-left: 30px;
+
+}
+
+p.contenedor{
+    
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    word-spacing: 30px;
+       
+
+    
+}
+
+p.buscapersonas{
+    
+    font-family: 'Alata', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: left;
+    padding:100px;
+    
+    
+} 
+
+form.lupa{
+   text-align: center;
+
+
+
+}
+
+img.logo{
+
+    float: left;
+
+}
+
+
+div.imagenfondo{
+
+    background-image: url(../img/people.png);
+    height: 900px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.footer{
+
+    background-color: rgb(63, 41, 59);
+    width: auto;
+    height: 120px;
+    text-align: center;
+    font-family:'Alata', sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
