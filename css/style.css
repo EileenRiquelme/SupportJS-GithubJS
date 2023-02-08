@@ -1,69 +1,150 @@
-img.logo{
-
-    margin-left: 30px;
-
-}
-
-p.contenedor{
-    
-    font-family: 'Alata', sans-serif;
-    text-align: center;
-    word-spacing: 30px;
-       
-
-    
-}
-
-p.buscapersonas{
-    
-    font-family: 'Alata', sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    text-align: left;
-    padding:100px;
-    
-    
-} 
-
-form.lupa{
-   text-align: center;
-
-
-
-}
 
 img.logo{
 
+    padding: 10px 0px 20px 30px;
     float: left;
 
 }
 
 
-div.imagenfondo{
+.contenedor-icono-i{
 
-    background-image: url(../img/people.png);
-    height: 900px;
-    width: auto;
-    background-size: cover;
-    background-position: center;
+    font-size: 15px;
+    color: white;
+    word-spacing: 100px;
 
 }
 
-.footer{
+.container-fluid{
 
-    background-color: rgb(63, 41, 59);
-    width: auto;
-    height: 120px;
+    color:white
+}
+
+a:link{
+
+    text-decoration: none;
+    word-spacing: 80 px;
+    padding: 80 px;
+
+}    
+
+.navbar-nav {
+   
+    width:100%;
+    padding: 0px 0px 10px 0px;
+    
+    
+}
+
+h2.titulo{
+
+    text-align: center;
+    
+}
+
+.mision{
+    padding: 0px 0px 0px 0px;
+}
+
+.container{
+
+    color: white;
+    font-size: 15px;
+
+}
+
+footer{
+
+    background-color: rgb(48, 48, 48); 
+    padding: 5px;
+    margin-bottom: -300px;
+    width: 100%;
     text-align: center;
     font-family:'Alata', sans-serif;
     color: white;
+         
+    
 }
 
 
+body{
+
+    padding: 0px;
+    background-image: url(../img/fondo12.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1.titulomt-5text-white{
+
+    padding-top: 70px;
+}
 
 
+/*Página Nosotros*/
+
+div.nosotros{
+
+    background-color: rgb(255, 255, 255);
+    padding: 250px 30px 160px 30px;
+    justify-content: left
+}
+
+.iniciativa{
+
+    padding-bottom: 50px;
+}
+.Visión{
+    padding-bottom: 0px;
+}
+
+.Misión{
+    padding-bottom: 50px;
+
+}
+.conocer{
+    background-color: rgb(198, 157, 191);
+
+}
+
+h6{
+    padding: 15px;
+}
+
+.card{
+    
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
 
 
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
 
 
+/*Página Contactanos*/
 
+.contactanos{
+    
+    padding: 0px 20px 20px 10px;
+    
+}
+
+@media screen and (max-width:500px){
+
+body{ background-image: url(../img/fondosmartphone.png);
+    
+} 
+
+}
+    
+
+    
+    
